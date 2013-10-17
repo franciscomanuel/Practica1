@@ -34,6 +34,6 @@ Terminada de programar la aplicación subimos todos los archivos a "openShift":
     git commit -a -m "añadido mi aplicación"
     git push
     
-Ya está mi aplicación subida y funcionando correctamente:
+Ya está mi aplicación subida a "openshift" funcionando correctamente:
 
 http://practica-franciscomanuel.rhcloud.com/
