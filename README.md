@@ -36,4 +36,4 @@ Terminada de programar la aplicación subimos todos los archivos a "openShift":
     
 Ya está mi aplicación subida y funcionando correctamente:
 
-    http://practica-franciscomanuel.rhcloud.com/
+http://practica-franciscomanuel.rhcloud.com/
