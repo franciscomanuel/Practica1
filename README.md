@@ -19,6 +19,7 @@ Dicho esto, procedo a explicar los pasos para la creación de mi aplicación:
 * Elegimos un lenguaje de programación para nuestra aplicación: yo he elegido PHP 5.3
 * Damos un nombre a nuestra aplicación: practica1
 * OpenShift registrará automáticamente el nombre de dominio para su aplicación: -franciscomanuel.rhcloud.com
+* Genero mi clave pública (ssh-keygen) y la inserto para mi aplicación.  
 * Pulsamos create application
 * Después de crear la aplicación se puede activar funciones adicionales, como bases de datos.
 
