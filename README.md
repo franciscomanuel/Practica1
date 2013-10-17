@@ -13,3 +13,27 @@ y twitter) y dos tablas. La primera de ella es mi horario para el primer cuatrim
 información sobre cada una de mis asignaturas(nombre, código, tipo ...).
 
 Dicho esto, procedo a explicar los pasos para la creación de mi aplicación:
+
+* En primer lugar, debemos darnos de alta en: https://www.openshift.com/
+* Una vez dado de alta creo mi aplicacion con add application.
+* Elegimos un lenguaje de programación para nuestra aplicación: yo he elegido PHP 5.3
+* Damos un nombre a nuestra aplicación: practica1
+* OpenShift registrará automáticamente el nombre de dominio para su aplicación: -franciscomanuel.rhcloud.com
+* Pulsamos create application
+* Después de crear la aplicación se puede activar funciones adicionales, como bases de datos.
+
+Ya tengo creada mi aplicación. Ahora nos descargamos la aplicación a nuestro ordenador con la siguiente orden de git:
+
+    git clone ssh://525e7c214382ec128e00014a@practica-franciscomanuel.rhcloud.com/~/git/practica.git/
+    
+Dentro de la carpeta practica tenemos nuestra carpeta php donde vamos a programar la aplicación (index.php)
+
+Terminada de programar la aplicación subimos todos los archivos a "openShift":
+
+    git add php
+    git commit -a -m "añadido mi aplicación"
+    git push
+    
+Ya está mi aplicación subida y funcionando correctamente:
+
+    http://practica-franciscomanuel.rhcloud.com/
