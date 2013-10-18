@@ -12,6 +12,9 @@ Mi aplicación desarrollada ha sido una pequeña web en la que aparece una foto 
 y twitter) y dos tablas. La primera de ella es mi horario para el primer cuatrimestre y la segunda tabla contiene
 información sobre cada una de mis asignaturas(nombre, código, tipo ...).
 
+He usado una licencia GPLV3. Esta licencia la he generado creando un nuevo archivo en el proyecto y seleccionando como 
+LICENCE GPLV3.
+
 Dicho esto, procedo a explicar los pasos para la creación de mi aplicación:
 
 * En primer lugar, debemos darnos de alta en: https://www.openshift.com/
